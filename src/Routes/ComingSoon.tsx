@@ -46,7 +46,7 @@ const Image = styled(motion.div)<{ bgphoto: string }>`
   background-image: url(${(props) => props.bgphoto});
   background-size: cover;
   background-position: center center;
-  height: 400px;
+  margin: 0 auto;
 `;
 
 const Title = styled.p`
@@ -67,8 +67,8 @@ const Overlay = styled(motion.div)`
 
 const BigMovie = styled(motion.div)`
   position: absolute;
-  width: 80vw;
-  height: 90vh;
+  min-width: 500px;
+  max-width: 300px;
   left: 0;
   right: 0;
   margin: 0 auto;
