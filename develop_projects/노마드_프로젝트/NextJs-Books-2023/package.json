@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-blueprint",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest",
+    "deploy": "gh-pages -d .next",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "@next/font": "^13.5.4",
+    "next": "12.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "homepage": "https://duddms72003.github.io/NextJs-Books-2023"
+}
