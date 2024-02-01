@@ -6,10 +6,10 @@ import NowPlaying from "./Routes/NowPlaying";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.NEXT_PUBLIC_BASE_PATH || ""}>
       <Header />
       <Routes>
-        <Route path="/" element={<Popular />}></Route>
+        <Route path="" element={<Popular />}></Route>
         <Route path="/movies/:movieId" element={<Popular />} />
         <Route path="/coming-soon" element={<ComingSoon />}></Route>
         <Route path="/coming-soon/movies/:movieId" element={<ComingSoon />} />
