@@ -6,8 +6,8 @@
     "build": "next build",
     "start": "next start",
     "post-update": "yarn upgrade --latest",
-    "deploy": "gh-pages -d .next",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@next/font": "^13.5.4",
