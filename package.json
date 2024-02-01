@@ -58,6 +58,5 @@
   "devDependencies": {
     "@types/react-helmet": "^6.1.6",
     "@types/styled-components": "^5.1.26"
-  },
-  "homepage": "https://duddms72003.github.io/React-Modal-2023-challenge/"
+  }
 }
