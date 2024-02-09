@@ -4,6 +4,7 @@ import { Link, useMatch, PathMatch } from "react-router-dom";
 import styled from "styled-components";
 
 const Nav = styled(motion.nav)`
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
